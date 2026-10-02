@@ -1,0 +1,30 @@
+# 1. Caché y Entornos
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.conda/
+cadd-env/
+
+# 2. Binarios y Ejecutables (Regla Estricta HPC)
+bin/
+*.exe
+*.so
+
+# 3. Orquestador y Datos Intermedios
+.snakemake/
+results/
+config/mdp/
+
+# 4. Basura de GROMACS y Logs
+mdout.mdp
+#*#
+.#*
+*.log
+*.err
+core
+core.*
+
+# 5. Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+name: cadd-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  # Preparación estructural y Química Computacional
+  - pdbfixer
+  - openmm
+  - rdkit
+  - meeko
+  # Parametrización (Amber / GAFF2)
+  - ambertools
+  - acpype
+  # Dinámica Molecular
+  - gromacs
+  # Orquestación y Análisis
+  - snakemake-minimal
+  - mdanalysis
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyyaml

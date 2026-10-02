@@ -1,0 +1,28 @@
+# Identificadores del sistema
+system:
+  name: "trypsin_benzamidine"
+  pdb_id: "3PTB"
+  raw_ligand_resname: "BEN"
+
+# Criterios biofísicos estructurales
+biophysics:
+  ph: 7.4
+  keep_ions: ["CA"]       # Calcio estructural esencial del bucle de autólisis
+  ligand_net_charge: 1    # Catión amidinio protonado (pKa ~ 11.6)
+
+# Parámetros de Docking (GNINA)
+docking:
+  exhaustiveness: 16
+  num_modes: 9
+  seed: 123
+  autobox_add: 4.0        # Buffer en Ångströms alrededor del ligando nativo
+  cnn_scoring: "rescore"
+
+# Parámetros de Dinámica Molecular (GROMACS + AMBER)
+md:
+  forcefield: "amber99sb-ildn"
+  water: "tip3p"
+  temperature: 300.0
+  box_distance: 1.0       # nm de separación al borde de la caja periódica
+  production_ns: 20
+  replicas: 3
