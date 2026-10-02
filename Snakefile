@@ -60,7 +60,7 @@ rule write_mdps:
     output:
         directory("config/mdp")
     shell:
-        "python scripts/write_mdps.py --out-dir {output} --time-ns 0.05 --seed 123"
+        "python scripts/write_mdps.py --out-dir {output} --time-ns 20 --seed 123"
 
 rule run_md:
     input:
