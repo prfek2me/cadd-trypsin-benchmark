@@ -30,7 +30,7 @@ El entorno se administra mediante Mamba/Conda.
 
 ```bash
 # 1. Clonar repositorio
-git clone [https://github.com/TU_USUARIO/cadd-trypsin-benchmark.git](https://github.com/TU_USUARIO/cadd-trypsin-benchmark.git)
+git clone https://github.com/prfek2me/cadd-trypsin-benchmark.git
 cd cadd-trypsin-benchmark
 
 # 2. Instalar el ecosistema
@@ -42,6 +42,6 @@ conda activate cadd-env
 
 # 3. Preparar binario standalone de GNINA
 mkdir -p bin
-wget [https://github.com/gnina/gnina/releases/download/v1.1/gnina](https://github.com/gnina/gnina/releases/download/v1.1/gnina) -O bin/gnina
+wget https://github.com/gnina/gnina/releases/download/v1.1/gnina -O bin/gnina
 chmod +x bin/gnina
 ```
