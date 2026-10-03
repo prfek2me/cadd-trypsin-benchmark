@@ -22,8 +22,6 @@ Para asegurar reproducibilidad estricta y blindar el flujo contra conflictos de 
 * **Dinámica Molecular:** GROMACS 2024+ configurado termodinámicamente con correcciones rigurosas (`c-rescale` y `V-rescale` en baños térmicos separados).
 * **Análisis In-Memory:** Procesamiento de trayectoria directo sobre binarios `.xtc` mediante `MDAnalysis`.
 
-*(Nota sobre binarios compilados: Por estándares de control de versiones HPC, el ejecutable de GNINA no se distribuye en este repositorio y debe descargarse durante la inicialización).*
-
 ## Instalación del Entorno (Linux / WSL2)
 
 El entorno se administra mediante Mamba/Conda. 
