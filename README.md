@@ -55,7 +55,7 @@ A native POSIX environment is required. The ecosystem is managed via `mamba` to 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/cadd-trypsin-benchmark.git
+git clone https://github.com/prfek2me/cadd-trypsin-benchmark.git
 cd cadd-trypsin-benchmark
 ```
 
